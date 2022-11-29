@@ -6,7 +6,7 @@ import { Directive,ElementRef } from '@angular/core';
 export class CustomedirectiveDirective {
 
   constructor(private el: ElementRef) {
-    el.nativeElement.style.color="#ff8000"
+    el.nativeElement.style.color="#cc00ff"
    }
 
 }
